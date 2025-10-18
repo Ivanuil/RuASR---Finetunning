@@ -21,7 +21,7 @@ def main():
             sys.exit(1)
 
     # Запускаем обучение
-    from train import main as train_main
+    from train_fixed import main as train_main
     train_main()
 
 if __name__ == "__main__":
